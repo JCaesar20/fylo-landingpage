@@ -1,0 +1,318 @@
+body {
+    overflow-x: hidden;
+}
+
+#section1, nav{
+    font-family: 'Raleway';
+    font-weight: 400;
+}
+
+nav{
+    margin-top: 20px;
+}
+
+.nav-item{
+    padding-left: 30px;
+}
+
+
+#section1 {
+    margin-top:80px;
+    
+}
+
+.head1 {
+    margin-left: 50px;
+    margin-top: 40px;
+    padding-right: 0;
+}
+
+.head1 h1{
+    font-weight:700;
+    font-size:55px;
+}
+
+.head1 p{
+    margin-top: 30px;
+   font-size: 25px;
+}
+
+.head1 form {
+    margin-top:30px;
+}
+
+.head1 form input {
+    display:inline-block;
+    margin-top:30px;
+    width:350px;
+    height:40px;
+}
+
+.head1 form button{
+    display:inline-block;
+    height:40px;
+    margin-bottom: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 10px;
+    
+}
+
+.head1img{
+    margin-right: 50px;
+ 
+}
+
+.head1img img{
+    
+    width: 630px;
+    height: 450px;
+
+}
+
+.navbar-brand{
+    margin-left: 50px;
+}
+
+#navbarSupportedContent{
+    margin-right: 150px;
+}
+
+#curve{
+    width: 100%;
+    margin-top: 100px;
+}
+
+#section3{
+    background-color:hsl(240, 75%, 98%);
+
+}
+
+#head2{
+    margin-left: 50px;
+}
+
+#head2 p{
+    margin-top:20px;
+    font-size: 18px;
+}
+
+#head2 h1{
+    font-size: 45px;
+}
+
+  #card{
+    content: "\f10d";
+    width:380px;
+    height:250px;
+    background-color: white;
+    box-shadow: 0 0 15px #ccc;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top:30px
+}
+
+#card i{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#card p {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+#card img{
+    border-radius: 50%;
+    width:50px;
+    height:50px; 
+    margin-left: 15px; 
+    margin-bottom:22px;
+    display:inline-block;
+}
+
+#card h6 {
+    display:inline-block;
+    margin-left: 10px;
+}
+#card h6 span {
+    font-size: 10px;
+}
+
+#head1img {
+margin-bottom: 200px;
+}
+
+#section4{
+    background-color:hsl(238, 22%, 44%);
+    color:white
+}
+#head3 {
+    margin-left: 30px;
+}
+
+#head3 h1{
+    margin-top: 100px;
+}
+
+#head3 p {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+#head3corner{
+    margin-top: 100px;
+    margin-bottom:150px
+}
+
+#head3corner input{
+    width: 500px;
+    height: 50px;
+}
+
+#head3corner button {
+    margin-top:20px;
+    height: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#section5 {
+    background-color: hsl(243, 87%, 12%);
+    color:white
+
+}
+
+#foot1{
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-bottom: 200px;
+}
+
+#foot1 img{
+    display: inline-block;
+    
+}
+
+#foot1 p{
+    display:inline-block
+}
+
+#foot2{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+#foot3{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+#foot4{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+#foot4 i{
+    margin-right: 10px;
+}
+ 
+@media (max-width: 1200px) {
+  
+    section{
+        text-align: center;
+        
+    }
+
+    #section1{
+        display:flex;
+        flex-direction: column;
+
+    }
+
+    .order1{
+        order:2
+    }
+
+    .order2{
+        order:1
+    }
+
+    .order3{
+        order:2
+    }
+    
+    .order4{
+        order: 1
+    }
+   
+  
+.head1img img{
+    
+    width: 450px;
+    height: 450px;
+
+}
+  
+.head1 form input{
+    width:300px;
+}
+  
+    .head1 form button{
+        height:40px;
+        margin-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 5px;
+        margin-top: 30px;   
+        width:300px;   
+    }
+
+    #head2 p{
+        text-align:left
+    }   
+    
+    #card{
+        text-align: left;
+        
+    }
+    #card{
+        position: relative;
+        margin: auto;
+        margin-bottom:50px;
+        margin-top:50px;
+        
+    }
+
+    #head3corner input{
+        position: relative;
+        margin:auto;
+        width: 350px;
+        height: 50px;
+    }
+
+    #submit{
+        width: 350px;
+        height: 50px;
+    }
+
+    #section5{
+        text-align:left;
+    }
+
+    #foot1{
+        margin-bottom:10px;
+    }
+
+    
+    #foot4{
+        margin-top:100px;
+        margin-bottom:25px;
+        text-align:center
+    }
+   
+
+
+  }
+ 
